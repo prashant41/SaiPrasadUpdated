@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Prasad</title>
+    <style>
+        /* General Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #fff;
+            text-align: center;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .login-btn {
+            background-color: #ff7e5f;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .login-btn:hover {
+            background-color: #e76241;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Sai Prasad</h1>
+        </header>
+        <main>
+            <h2>Login to Use</h2>
+            <a href="login.php" class="login-btn">Login</a>
+        </main>
+        <footer>
+            <p>&copy; 2024 Sai Prasad. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
